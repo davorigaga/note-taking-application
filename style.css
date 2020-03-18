@@ -1,0 +1,290 @@
+*{
+	margin: 0; 
+	padding: 0; 
+}
+
+.d{
+	color: black;
+	font-size: 40px;
+	
+}
+.main{
+	height: 300px;
+	width: 310px;
+	margin: 0;
+	padding: 0; 
+	margin: 0;
+	background-color: green; 
+}
+.main .header{
+	background: linear-gradient(red, black);; 
+	color: white;
+	text-align: left; 
+	font-size: 20px;
+	font-family: "Comic Sans M";
+	width: 310px;
+	height: 40px;
+	margin: 0;
+}
+.main .header p{
+	padding-left: 10px;
+
+}
+.displayArea{
+	background-color: rgb(239, 131, 104); 
+	height: 220px;
+	width: 310px;
+	margin: 0;
+}
+.main .footer{
+	text-align: right;
+	background: linear-gradient(red, black); 
+	margin: 0;
+	height: 40px;
+	width: 100%;
+	padding-top: 2px;
+	font-size: 30px;
+}
+.main .footer p{
+	text-align: center;
+	position: relative;
+	left: 140px;
+	border-radius: 50%; 
+}
+.main .add{
+	font-weight: bolder; 
+	color: white;
+	background: radial-gradient(black, red);
+	box-shadow: -1px -1px 1px rgba(0 0 0 0.1);   
+	text-align: center;
+	width: 40px;
+	cursor: pointer;
+}
+.created{
+	font-size: 14px;
+	text-align: right;
+	height: auto; 
+	width: 310px;
+	margin-left: -3px; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	
+}
+.noteDiv{
+	display: inline-block;
+	width: 310px;
+	max-height: 15px; 
+	display: inline-block;
+	margin-left: -3px;
+	float: left;
+
+}
+.noteDiv p{
+	width: 70%; 
+	display: inline-block;
+}
+.noteDiv .del{
+	float: right;
+	display: inline-block;
+	/*width: 30%; */
+}
+/*PAGE 2*/
+
+*{
+	margin: 0; 
+	padding: 0; 
+}
+.main2{
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	width: 310px;
+	background: green;
+
+}
+.main2 .header2{
+	height: 40px;
+	width: 100%;
+	background-color: red;
+	margin: 0;
+	padding-bottom: 3px;
+}
+/*Page two*/
+.main2 .header2 #title2{
+	padding-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	padding-left: 0;
+	width: 310px;
+	height: 40px;
+	
+}
+.header2 #title2 .backClass{
+	grid-column: 1fr; 	
+}
+.header2 #title2 .arrow{
+	color: white;
+	font-size: 30px;
+}
+.header2 #title2 .arrow:hover{
+	cursor: pointer;
+}
+.header2 #title2 .newNote{
+	grid-column: 1fr; 
+	color: white;
+	font-weight: bolder; 
+	font-size: 22px;
+	font-family: "Comic Sans M";
+}
+.header2 #title2 .saveIcon{
+	grid-column: 1fr; 
+	font-size: 30px;
+	color: white;
+
+}
+.header2 #title2 .saveIcon:hover{
+	cursor: pointer;
+}
+.main2 .displayArea2{
+	z-index: 2;
+	position: relative;
+	background: blue;
+	height: 220px; 
+	width: 310px;
+	padding: 0; 
+	margin: 0; 
+}
+.alert-success{
+	text-transform: capitalize;
+	background: green; 
+	border-radius: 10px;
+	color: white;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	overflow: hidden;
+	text-overflow: clip; 
+	top: 180px;
+	left: 580px; 
+	z-index: 5;
+	box-shadow: 2px 2px 2px grey;
+	
+}
+.alert-danger{
+	text-transform: capitalize;
+	background: red; 
+	border-radius: 10px;
+	color: white;
+	overflow: hidden;
+	text-overflow: clip; 
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 170px;
+	left: 230px; 
+	z-index: 5;
+	box-shadow: 2px 2px 2px grey;
+	
+}
+.main2 .displayArea2 form{
+	height: 220px; 
+	width: 310px;
+	margin: 0; 
+	padding: 0;
+	background-color: transparent;
+}
+.main2 .displayArea2 form textarea{
+	height: 100%;  
+	width: 100%;
+	background-color: lightgrey;
+	margin: 0;
+	white-space: pre-wrap; 
+	overflow: visible;
+	text-overflow: ellipsis; 
+	font-size: 14px;
+	font-family: tahoma;
+	border: none;
+	color: black;
+}
+.main2 .displayArea2 form textarea:focus{
+	background: lightyellow;
+}
+.main2 .footer2{
+	height: 37px; 
+	width: 310px;
+	z-index: 9; 
+	margin-bottom: 0;
+	background-color: red;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+
+.icon{
+	color: white;
+}
+ul li{
+	display: inline-block;
+/*	grid-template-columns: 1fr 1fr 1fr;*/
+	color: white;
+	font-size: 16px;
+	border-radius: 4px;
+	padding: 5px; 
+	margin: 0; 
+	width: 100%;
+	height: 30px;
+	text-align: left;  
+	background: linear-gradient(lightyellow, red);
+	box-shadow: 2px 2px 2px grey;
+	text-shadow: 2px 2px 2px grey;
+}
+
+ul li p{
+/*	grid-column: 1fr; 
+*/	width: 80%;
+	margin-top: 3px;
+	height: 30px;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+ul li:hover{
+	color: black;
+	background: linear-gradient(lightyellow, blue);
+	box-shadow: 2px 2px 2px grey;
+	text-shadow: 2px 2px 2px grey;
+}
+
+.del{
+	background: black; 
+	color: white; 
+	font-weight: bolder; 
+	width: 50px;
+	display: inline-block;
+	margin: 0;
+	float: left;
+	text-align: center;
+}
+.del:hover{
+	background: #b01c20; 
+	color: #ffffff;
+	font-weight: bolder; 
+	border-radius: 8px; 
+	box-shadow: 5px 5px 5px hsla(0, 0%, 26.6667%, 0.8);
+	text-shadow: 0px 1px black;
+	transition: transform 0.1s ease 0s;
+	transform: scale(0.9);
+	width: 50px;
+	text-align: center;
+
+}
+.display{
+	height: 220px;
+	width: 310px;
+	background: none; 
+	padding-left: 2px;
+}
